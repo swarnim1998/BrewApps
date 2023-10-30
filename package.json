@@ -1,0 +1,30 @@
+{
+  "name": "brewapps",
+  "version": "1.0.0",
+  "description": "Interview app",
+  "main": "index.js",
+  "scripts": {
+    "local": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarnim1998/BrewApps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swarnim1998/BrewApps/issues"
+  },
+  "homepage": "https://github.com/swarnim1998/BrewApps#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongodb": "^5.1.0",
+    "mongoose": "^5.7.7"
+  }
+}
