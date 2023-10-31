@@ -13,7 +13,7 @@ const UPDATE_BOOK_SCHEMA = Joi.object({
 })
 
 const QUERY_SCHEMA = Joi.object({
-    id: Joi.string().length(12).required()
+    id: Joi.string().length(24).required()
 })
 
 const RETRIEVE_QUERY_SCHEMA = Joi.object({

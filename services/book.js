@@ -92,6 +92,7 @@ const deleteBook = async (query) => {
         await Book.deleteMany({ _id: new ObjectId(query.id) }, {})
         return "Book Successfully Deleted"
     } catch (error) {
+        console.log(error)
         throw error
     }
 }
