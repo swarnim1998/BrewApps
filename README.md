@@ -54,4 +54,20 @@ By default, the server is running on http://localhost:3002 you can change the po
  
  # Production
  I have deployed the applcation on Goggle cloud you can access the above apis using below url
- http://35.200.221.116:3002/api/book         
+ http://35.200.221.116:3002/api/book 
+ Steps:- 
+ 1. Sign in to the google cloud console.
+ 2. Created a new VM instance.
+ 3. Configured the instance with medium size, asia zone and other settings.
+ 4. Selected the Ubuntu boot disk image.
+ 5. Setup the firewall to allow traffic from HTTP and HTTPS with port 3002.
+ 6. Updated the system pacakages using sudo apt update command.
+ 7. Installed npm, nvm, nodejs and docker.
+ 8. Now by git clone command gets all the code on server
+ 9. Created a docker image using docker build command
+10. And Now By running command docker run started the server and can access the server on the port 3002 and copy the IP from VM console.
+   In our case the IP is http://35.200.221.116
+    
+     
+ # videolink
+ https://drive.google.com/file/d/1HsevQM9fOYfOij6qhG6gnkBS9BHYbXvl/view    
